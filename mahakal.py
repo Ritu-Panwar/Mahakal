@@ -57,7 +57,7 @@ pass_file = sys.argv[3]
 #Receiving the neccessary arguments for cracking the hash value...
 
 if os.path.exists(pass_file) == False:
-    print(colored("[!]Password File Not Found...exiting now", "red", attrs=['bold']))
+    print(colored("[!]Password File Not Found", "red", attrs=['bold']))
     sys.exit(0)
 #Check if the specified password file exists or not...
 
